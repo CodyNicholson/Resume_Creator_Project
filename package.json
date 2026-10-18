@@ -1,0 +1,25 @@
+{
+  "name": "resume_creator_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx resumeBuilder.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/CodyNicholson/Resume_Creator_Project"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
